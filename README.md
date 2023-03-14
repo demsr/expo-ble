@@ -9,7 +9,6 @@ FAQ
 - **Do i need to eject?** No
 - **Can i use the expo go app?** Also no
 - **But how does it work?** Running native code (non expo stuff, react-native-ble-plx in this case) requires a custom build of expo's go app, called a [dev-client](https://docs.expo.dev/development/introduction/#what-is-an-expo-dev-client)
-- **I can't see anything happening in this app?!** Currently all this app does is outputting stuff to the console. This will change in the future.
 
 ## Requirements
 

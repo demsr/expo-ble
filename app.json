@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "Picoleaf",
-    "slug": "picoleaf",
+    "name": "expo-ble",
+    "slug": "expo-ble",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "scheme": "dev.sumser.picoleaf",
+    "scheme": "com.example.expo-ble",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -40,10 +40,9 @@
         }
       ]
     ],
-
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "dev.sumser.picoleaf",
+      "bundleIdentifier": "com.example.expo-ble",
       "infoPlist": {
         "NSCameraUsageDescription": "$(PRODUCT_NAME) needs access to your Camera.",
         "NSPhotoLibraryUsageDescription": "Allow $(PRODUCT_NAME) to access your photos.",
@@ -55,12 +54,15 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "dev.sumser.picoleaf",
+      "package": "com.example.expo-ble",
       "permissions": [
         "android.permission.CAMERA",
         "android.permission.READ_EXTERNAL_STORAGE",
         "android.permission.WRITE_EXTERNAL_STORAGE",
-        "android.permission.ACCESS_MEDIA_LOCATION"
+        "android.permission.ACCESS_MEDIA_LOCATION",
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_CONNECT"
       ]
     },
     "web": {
